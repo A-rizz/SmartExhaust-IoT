@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.auth-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 24px rgba(0, 119, 182, 0.08);
+}
+
+.card-header {
+    background: linear-gradient(90deg, #0077b6 0%, #43cea2 100%);
+    color: white;
+    border-radius: 15px 15px 0 0 !important;
+    padding: 1.5rem;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e0e0e0;
+}
+
+.form-control:focus {
+    border-color: #0077b6;
+    box-shadow: 0 0 0 0.2rem rgba(0, 119, 182, 0.25);
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #0077b6 0%, #43cea2 100%);
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #43cea2 0%, #0077b6 100%);
+}
+
+.form-check-input:checked {
+    background-color: #0077b6;
+    border-color: #0077b6;
+}
+
+.form-check-label a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.form-check-label a:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.text-center a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+.smooth-fade {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.35s cubic-bezier(.4,0,.2,1), transform 0.35s cubic-bezier(.4,0,.2,1);
+    will-change: opacity, transform;
+}
+.smooth-fade.is-leaving {
+    opacity: 0;
+    transform: translateY(30px);
+    pointer-events: none;
+} 
